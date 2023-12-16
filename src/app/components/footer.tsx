@@ -29,7 +29,7 @@ const Footer = () => {
                     <p className="text-[14px] text-[#555555]">Social media</p>
                 </div>
             </div>
-            <div className="flex gap-40 items-center">
+            <div className="flex gap-40 max-md:gap-28 max-sm:gap-10 max-sm:flex-col items-center">
                 <div className="flex gap-5 items-center">
                     <div className="h-10 w-10 bg-[#EDFFEF] flex items-center justify-center rounded-full cursor-pointer hover:bg-[#39DB4A] hover:text-white transition duration-200">
                         <LuFacebook />
@@ -45,7 +45,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <p className="text-[14px] text-[#555555]">Copyright © 2023 Dscode | All rights reserved</p>
+                    <p className="text-[14px] text-[#555555]">Copyright © 2023 Stevecode | All rights reserved</p>
                 </div>
             </div>
 
