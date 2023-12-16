@@ -34,11 +34,11 @@ const Header = () => {
             </div>
             <RxHamburgerMenu  className="text-[20px] cursor-pointer" onClick={()=>setMenu(true)}/>
             {menu &&
-            <div className="absolute right-0 top-0 bg-[#39DB4A] w-40 h-52 text-white flex flex-col justify-center px-5">
+            <div className="absolute right-0 top-0 bg-[#39DB4A] w-40 h-64 text-white flex flex-col justify-center px-5">
                 <div className="w-full flex justify-end ">
                 <IoClose className="cursor-pointer" onClick={()=>setMenu(false)} />
                 </div>
-                <ul className="flex flex-col gap-5 text-[14px] max-md:text-[12px] text-white sm:hidden ">
+                <ul className="flex flex-col gap-7 text-[14px] max-md:text-[12px] text-white sm:hidden ">
                     <li className="">Home</li>
                     <li>Menu</li>
                     <li>About Us</li>
