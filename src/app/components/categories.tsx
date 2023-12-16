@@ -18,7 +18,7 @@ const Categories = () => {
             <h1 className="text-[28px]  font-bold">Popular Categories</h1>
             <div className="mt-5 flex gap-10 max-lg:gap-5 max-sm:grid max-sm:grid-cols-2">
                 {cards.map(card => (
-                    <div className="bg-white shadow shadow-lg shadow-slate-400 rounded-xl py-5 max-md:py-3 px-12 max-sm:px-10 max-sm:py-5 max-md:px-6 flex flex-col gap-2 items-center justify-center">
+                    <div className="bg-white shadow shadow-lg shadow-slate-400 rounded-xl py-5 max-md:py-3 px-12 max-sm:px-10 max-sm:py-5 max-md:px-6 flex flex-col gap-2 items-center justify-center" key={card.title}>
                         <div className="bg-[#C1F1C6] flex items-center justify-center w-24 max-md:w-16 h-24 max-md:h-16 rounded-full">
                             <img src={card.image} alt="" className="w-16" />
                         </div>

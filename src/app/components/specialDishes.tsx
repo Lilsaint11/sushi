@@ -31,7 +31,7 @@ const SpecialDishes = () => {
             </div>
             <div className="mt-5 flex gap-10 max-lg:grid max-lg:grid-cols-2 max-sm:grid max-sm:grid-cols-1">
                 {cards.map(card => (
-                    <div className="bg-white shadow shadow-lg shadow-slate-400 rounded-xl pt-16 pb-10 px-5 w-72 flex flex-col gap-2 items-center justify-center relative">
+                    <div className="bg-white shadow shadow-lg shadow-slate-400 rounded-xl pt-16 pb-10 px-5 w-72 flex flex-col gap-2 items-center justify-center relative" key={card.title}>
                         <div className="absolute top-0 right-0 w-16 h-12 bg-[#39DB4A] flex items-center justify-center rounded-tr-xl rounded-bl-3xl">
                             < FaRegHeart className="text-white"/>
                         </div>

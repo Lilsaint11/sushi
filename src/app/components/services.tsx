@@ -22,7 +22,7 @@ const Services = () => {
             </div>
             <div className="grid grid-cols-2 gap-7">
                 {cards.map(card => (
-                    <div className="bg-white shadow shadow-lg shadow-slate-400 rounded-xl py-7 px-5 w-44 flex flex-col gap-2 items-center justify-center">
+                    <div className="bg-white shadow shadow-lg shadow-slate-400 rounded-xl py-7 px-5 w-44 flex flex-col gap-2 items-center justify-center" key={card.title}>
                         <img src={card.image} alt="" className="w-10" />
                         <h3 className="text-[14px] font-bold text-[#39DB4A] capitalize">{card.title}</h3>
                         <p className="text-[12px] text-center text-[#90BD95]">{card.sub}</p>
