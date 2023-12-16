@@ -13,10 +13,10 @@ const Services = () => {
         {image:"/gift.png", title:"GIFT CARDS",sub:"Give the gift of exceptional dining with Foodi Gift Cards"}
     ]
     return ( 
-        <div className="flex gap-5 justify-between">
-            <div className="flex flex-col gap-5 w-1/2 mt-5">
+        <div className="flex max-md:flex-col gap-5 justify-between">
+            <div className="flex flex-col gap-5 md:w-1/2 mt-5">
                 <p className="text-[12px] text-[#F63B3B] font-bold w-full">OUR STORY & SERVICES</p>
-                 <h1 className="text-[44px]  font-bold ">Our Culinary Journey And Services </h1>
+                 <h1 className="text-[44px] max-sm:text-[32px]  font-bold ">Our Culinary Journey And Services </h1>
                  <p className="text-[16px] text-[#555555] font-bold w-full">Rooted in passion, we curate unforgettable dining experiences and offer exceptional services, blending culinary artistry with warm hospitality.</p>
                  <button className="bg-[#39DB4A] w-36 h-10 rounded-full flex items-center justify-center text-white font-semibold shadow shadow-md shadow-[#39DB4A] ">Explore</button>
             </div>

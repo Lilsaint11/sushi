@@ -3,10 +3,10 @@ import { LuFacebook,LuInstagram, LuTwitter, LuYoutube } from "react-icons/lu";
 const Footer = () => {
     return ( 
         <div className="flex flex-col gap-24 mt-10">
-            <div className="flex justify-between">
+            <div className="flex max-sm:grid max-sm:grid-cols-2 gap-5 justify-between">
                 <div className="flex flex-col gap-4">
                     <h1 className="text-[24px]"><span className="bg-[#39DB4A] text-white py-[1px] px-[7px] rounded-xl ">S</span>ushi</h1>
-                    <p className="text-[14px] w-48 text-[#555555]">Savor the artistry where every dish is a culinary masterpiece</p>
+                    <p className="text-[14px] w-48 max-sm:w-40 text-[#555555]">Savor the artistry where every dish is a culinary masterpiece</p>
                 </div>
                 <div className="flex flex-col gap-4">
                     <h1 className="font-bold">Useful links</h1>
